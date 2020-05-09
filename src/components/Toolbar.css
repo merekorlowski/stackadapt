@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+}
+
+.toolbar {
+	display: flex;
+}
+
+.dropdown {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+	box-shadow: 1px 1px 5px grey;
+	background-color: #fff;
+	z-index: 1;
+}
+
+.dropdown div {
+	padding: 8px;	
+}
